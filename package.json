@@ -1,0 +1,22 @@
+{
+  "name": "auth0-integration",
+  "version": "1.0.0",
+  "description": "Auth0 Integration Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auth0",
+    "expressjs",
+    "nodejs"
+  ],
+  "author": "Franklin P. Thaker",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-openid-connect": "^2.17.1"
+  }
+}
